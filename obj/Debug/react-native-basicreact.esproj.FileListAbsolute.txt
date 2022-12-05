@@ -1,0 +1,2 @@
+D:\for-jobs\react-native-basicreact\react-native-basicreact\obj\Debug\react-native-basicreact.esproj.SuggestedBindingRedirects.cache
+D:\for-jobs\react-native-basicreact\react-native-basicreact\obj\Debug\react-native-basicreact.esproj.CoreCompileInputs.cache
