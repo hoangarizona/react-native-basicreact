@@ -11,15 +11,16 @@ function App()
 {
     const [robots, setRobots] = useState([]);
     const [searchField, setSearchField] = useState('');
+    const [count, setCount] = useState(0);
 
     useEffect(() => {//run everytime it renders
         fetch('https://jsonplaceholder.typicode.com/users')
             .then(response => response.json())
             .then(users => { setRobots(users) })
-        console.log(robots);
+        console.log(count);
 
 
-    }, []);//[] not applying if elements in array not change
+    }, [count]);//[] not applying if elements in array not change
 
         const onSearchChange = (event) => {
             //setSearchField({ searchField: event.target.value });
@@ -39,6 +40,7 @@ function App()
                 <div className='tc'>
                     <h1 className='f1'>RoboFriends</h1>
                     <SearchBox searchChange={onSearchChange} />
+                    <button onClick={()=> setCount(count+1)}>Click me</button>
                     <Scroll>
                        <ErrorBoundry>
                             <CardList robots={filteredRobots} />
