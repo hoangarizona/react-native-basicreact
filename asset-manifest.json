@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-native-basicreact/static/css/main.9dd81633.css",
+    "main.js": "/react-native-basicreact/static/js/main.f1ad1d8b.js",
+    "static/js/787.6334b55b.chunk.js": "/react-native-basicreact/static/js/787.6334b55b.chunk.js",
+    "index.html": "/react-native-basicreact/index.html",
+    "main.9dd81633.css.map": "/react-native-basicreact/static/css/main.9dd81633.css.map",
+    "main.f1ad1d8b.js.map": "/react-native-basicreact/static/js/main.f1ad1d8b.js.map",
+    "787.6334b55b.chunk.js.map": "/react-native-basicreact/static/js/787.6334b55b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9dd81633.css",
+    "static/js/main.f1ad1d8b.js"
+  ]
+}
